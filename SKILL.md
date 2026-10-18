@@ -1,6 +1,13 @@
 ---
 name: video-prompt-verifier
-description: Reverse-engineer a reference video into an AI video prompt, then PROVE the prompt works — regenerate with it, score the render against the reference, fix the worst-scoring axis, and repeat until the score converges. Use when the user shares a reference video and wants a prompt that recreates it ("反推这个视频的提示词", "video to prompt", "make a prompt that reproduces this clip"), or wants to know how close a reversed prompt actually gets. Unlike plain video-to-prompt tools, the deliverable is the prompt PLUS its evidence: a score curve, per-round diffs, and side-by-side frames.
+description: >-
+  Reverse-engineer a reference video into an AI video prompt, then PROVE the prompt works —
+  regenerate with it, score the render against the reference, fix the worst-scoring axis, and
+  repeat until the score converges. Use when the user shares a reference video and wants a prompt
+  that recreates it ("反推这个视频的提示词", "video to prompt", "make a prompt that reproduces this clip"),
+  or wants to know how close a reversed prompt actually gets. Unlike plain video-to-prompt tools,
+  the deliverable is the prompt PLUS its evidence: a score curve, per-round diffs, and side-by-
+  side frames.
 ---
 
 # video-prompt-verifier: a reverse prompt with a test report
