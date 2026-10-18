@@ -1,0 +1,46 @@
+{
+  "fps": 23.9501,
+  "frames": 480,
+  "width": 1280,
+  "height": 720,
+  "duration_s": 20.042,
+  "cuts": [
+    {
+      "frame": 240,
+      "method": "ffmpeg-scene+threshold",
+      "score": 12.73,
+      "continuity": 0.0,
+      "time_s": 10.021
+    }
+  ],
+  "shots": [
+    {
+      "index": 1,
+      "start_frame": 0,
+      "end_frame": 240,
+      "frames": 240,
+      "start_s": 0.0,
+      "end_s": 10.021,
+      "dur_s": 10.021
+    },
+    {
+      "index": 2,
+      "start_frame": 240,
+      "end_frame": 480,
+      "frames": 240,
+      "start_s": 10.021,
+      "end_s": 20.042,
+      "dur_s": 10.021
+    }
+  ],
+  "stats": {
+    "shot_count": 2,
+    "cut_count": 1,
+    "asl_s": 10.02,
+    "median_shot_s": 10.02,
+    "min_shot_s": 10.02,
+    "max_shot_s": 10.02,
+    "cuts_per_min": 3.0
+  },
+  "transition_note": "Only hard cuts are detected automatically. Check the contact sheet for dissolves/whips."
+}
